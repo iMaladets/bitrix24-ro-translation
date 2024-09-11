@@ -17,7 +17,7 @@ Asigurați-vă că aveți instalat codul widget-ului pe site, care ar trebui să
 
 Exemplu de instalare și activare
 
-Insalați fișierul în mapa predeterminată de proiectul Dumneavoastră, ex "assets/helpers/translation/bitrixcrmwidget_ro.json"
+Instalați fișierul în mapa predeterminată de proiectul Dumneavoastră, ex "assets/helpers/translation/bitrixcrmwidget_ro.json"
 
 ```javascript
 window.addEventListener('onBitrixLiveChat', async function(event) {
