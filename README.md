@@ -21,7 +21,7 @@ Instalați fișierul în mapa predeterminată de proiectul Dumneavoastră, ex "a
 
 ```javascript
 window.addEventListener('onBitrixLiveChat', async function(event) {
-    widget = event.detail.widget;
+    const widget = event.detail.widget;
     const res = await fetch('/assets/helpers/translation/bitrixcrmwidget_ro.json')
     if(res.ok){
       let translate = await res.json()
